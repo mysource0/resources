@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view-point" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" type="image/x-icon">
+    <title>resource hub beta</title>
+
+    <style>
+        header{
+            text-align:center; margin:38px;
+            font-size:55px; background-color:rgb(29, 29, 29); 
+            color:rgba(255, 241, 241, 0.917);
+            border:2px solid rgb(230, 227, 227); 
+        }
+        .dark-mode {
+            padding: 25px;
+            background-color: rgba(255, 255, 255, 0.676);
+            color: rgb(0, 0, 0);
+            font-size: 25px;
+        }
+        body {
+            background-color: rgba(0, 0, 0, 0.914);
+            color: rgba(255, 255, 255, 0.859);
+        }
+        span {
+            font-size:40px;
+        }
+        legend {
+            font-size: 30px;
+        }
+        a {
+            text-decoration: none;
+            font-size: 30px;
+            color:rgb(0, 202, 0);
+            border: 8px 3px 8px 3px solid rgb(0, 0, 0);
+            margin: 5px;
+            padding: 8px;
+        }
+        .nav {
+            text-align: right;
+        }
+        .themebox_light {
+            border-radius:36px;
+            background-color: black;
+            padding: 15px;
+            margin: 10px;
+            font-size: 16px;
+            color: white;
+        }
+        .themebox_dark {
+            border-radius:36px;
+            background-color: rgb(255, 255, 255);
+            padding: 15px;
+            color: rgb(0, 0, 0);
+            margin: 10px;
+            font-size: 16px;
+            
+        }
+        ::-webkit-scrollbar{
+        width:13px;
+        }
+        ::-webkit-scrollbar-track{
+          background:#000000ed;
+          border-radius:30px;
+        }
+        ::-webkit-scrollbar-thumb{
+          background:#ff00bb;
+          border-radius:10px;
+        }
+
+     </style>
+</head>
+<fieldset>
+<header>Resource HUB {BETA}</header>
+</fieldset>
+<body>
+
+<fieldset>
+    <nav class="nav">
+        <span></span>
+        <button class="themebox_dark"  onclick="myFunction()"><b>Light Mode</b></button>
+        <button class="themebox_light"  onclick="myFunction()"><b>Dark Mode</b></button>
+    </nav>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+    </script>
+    <div class="programming_lang">
+        <p>
+            <span style="font-size: 35px"><b>Programming Languages</b></span>
+            <fieldset>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+                <li><a href="https://www.w3schools.com/python/default.asp">Python</a></li>
+                <li><a href="https://www.w3schools.com/java/default.asp">Java</a></li>
+                <li><a href="https://www.w3schools.com/c/index.php">C</a></li>
+                <li><a href="https://www.w3schools.com/cpp/default.asp">C++</a></li>
+                <li><a href="https://www.w3schools.com/cs/index.php">C#</a></li>
+                <li><a href="https://www.javatpoint.com/swift-tutorial">Swift [IOS]</a></li>
+                <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+                <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+                <li><a href="https://www.javatpoint.com/r-tutorial">R Programming</a></li>
+                <li><a href="https://www.javatpoint.com/ruby-tutorial">Ruby</a></li>
+                <li><a href="https://www.javatpoint.com/go-tutorial">Go</a></li>
+                <li><a href="https://www.w3schools.com/kotlin/index.php">Kotlin</a></li>
+                <li><a href="https://www.w3schools.com/django/index.php">Django</a></li>
+                <li><a href="https://www.w3schools.com/typescript/index.php">TypeScript</a></li>
+                <li><a href="https://www.javatpoint.com/vb-net">VB.Net</a></li>
+                <li><a href="https://www.javatpoint.com/shell-scripting-tutorial">Shell Script</a></li>
+                <li><a href="https://www.tutorialspoint.com/computer_programming_tutorials.htm">Clicl For More</a></li>
+            </ul>
+        </fieldset>
+        </p>
+    </div> <br> <br> <br>
+
+    <div class="webdev">
+        <p>
+            
+            <span><b>Web Development</b></span>
+            <div class="frontend">
+            <fieldset>
+                <legend><b>Front End</b></legend>
+                <ul>
+                    <li><a href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+                    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+                    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend><b>Front End Frameworks</b></legend>
+                <ul>
+                    <li><a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">Bootstrap</a></li>
+                    <li><a href="https://tailwindcss.com/">tailwind</a></li>
+                    <li><a href="https://www.w3schools.com/sass/default.php">SASS</a></li>
+                    <li><a href="https://www.javatpoint.com/less-tutorial">LESS</a></li>
+                    <li><a href="https://www.w3schools.com/react/default.asp">React.js</a></li>
+                    <li><a href="https://www.w3schools.com/angular/default.asp">Angular.js</a></li>
+                    <li><a href="https://www.javatpoint.com/vue-js">Vue.js</a></li>
+                    <li><a href="https://www.w3schools.com/jquery/default.asp">jQuery-A Javascript library</a></li>
+                    </ul>
+            </fieldset>
+            </div> <br> 
+            <div class="version_control">
+            <fieldset>
+                <legend><b>Version Contro;</b></legend>
+                <ul>
+                    <li><a href="https://www.w3schools.com/git/default.asp">Git</a></li>
+                </ul>
+            </fieldset>
+            </div> <br>
+            <div class="backend">
+            <fieldset>
+                <legend><b>Back End</b></legend>
+                <ul>
+                    <li><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></li>
+                    <li><a href="https://www.w3schools.com/python/default.asp">Python</a></li>
+                    <li><a href="https://www.w3schools.com/php/default.asp">PHP</a></li>
+                    <li><a href="https://www.tutorialspoint.com/database_tutorials.htm">Databases</a></li>
+                    <li><a href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+                    <li><a href="https://www.w3schools.com/mysql/default.asp">MySQL</a></li>
+                    <li><a href="https://www.w3schools.com/nodejs/default.asp">Node.js</a></li>
+                    <li><a href="https://www.w3schools.com/asp/default.asp">ASP</a></li>
+                    <li><a href="https://www.w3schools.com/cs/index.php">C#</a></li>
+                    <li><a href="https://www.w3schools.com/go/">Go</a></li>
+                    <li><a href="https://www.w3schools.com/git/default.asp">GIT</a></li>
+                    <li><a href="https://www.tutorialspoint.com/web_development_tutorials.htm">Click For More</a></li>
+                </ul>
+            </fieldset>
+            </div> <br>
+            <div class="fullstack">
+            <fieldset>
+                <legend><b>Full Stack Development</b></legend>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/learn-web-development-free-full-stack-developer-courses-for-beginners/">Full Stack Course</a></li>
+                </ul>
+            </fieldset>
+            </div> <br> <br>          
+        </p>
+    </div> 
+    <div class="lang_references">
+        <p>
+            <span><b>Languages Reference</b>s</span>
+        <fieldset>
+            <ul>
+                <li><a href="https://www.w3schools.com/tags/default.asp">HTML</a></li>
+                <li><a href="https://www.w3schools.com/cssref/default.asp">CSS</a></li>
+                <li><a href="https://www.w3schools.com/jsref/default.asp">JavaScript</a></li>
+                <li><a href="https://www.w3schools.com/python/python_reference.asp">Python</a></li>
+                <li><a href="https://www.w3schools.com/java/java_ref_keywords.asp">Java</a></li>
+                <li><a href="https://www.w3schools.com/php/php_ref_overview.asp">PHP</a></li>
+                <li><a href="https://www.w3schools.com/sql/sql_ref_keywords.asp">SQL</a></li>
+                <li><a href="https://www.w3schools.com/mysql/mysql_ref_functions.asp">MySql</a></li>
+                <li><a href="https://www.w3schools.com/asp/asp_ref_response.asp">ASP</a></li>
+            </ul>
+        </fieldset>
+        </p>
+    </div> <br> <br> 
+    <div class="cheatsheets">
+        <p>
+            <span><b>Cheat Sheets</b></span>
+        <fieldset>
+            <ul>
+                <li><a href="https://overapi.com/">OverAPI.com</a></li>
+                <li><a href="https://fontawesome.com/v5/cheatsheet">Font Awesome-CheatSheets</a></li>
+                <li><a href="https://cheatography.com/programming/">Cheatography</a></li>            
+            </ul>
+        </fieldset>
+        </p>
+    </div> <br> <br> 
+    <div class="code_editors">
+        <p>
+            <span><b>Online Code editor's</b></span>
+        <fieldset>
+            <ul>
+                <li><a href="https://www.gitpod.io/">Gitpod</a></li>
+                <li><a href="https://codesandbox.io/">Code Sandbox</a></li>
+                <li><a href="https://codepen.io/">CodePen</a></li>
+                <li><a href="https://jsfiddle.net/">JS Fiddle</a></li>
+                <li><a href="https://jsbin.com/?html,output">JSBin</a></li>
+                <li><a href="https://playcode.io/">Play Code</a></li>
+                <li><a href="https://www.w3schools.com/tryit/tryit.asp?filename=tryhtml_hello">Trylt Frontend Editor</a></li>
+                <li><a href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python">Tryit Backend Editor</a></li>
+                <li><a href="https://www.editpad.org/">EditPad</a></li>
+                <li><a href="https://stackblitz.com/">StackBlitz</a></li>
+                <li><a href="https://codeshare.io/">Code Share</a></li>
+            </ul>
+        </fieldset>
+        </p>
+    </div> <br> <br>     
+    <div class="typing_practice">
+        <p>
+            <span><b>Improve typing skills</b></span>
+            <fieldset>
+                
+                <ul>
+                    <li><a href="https://www.keybr.com/">Keybr</a></li>
+                </ul>
+            </fieldset>
+        </p>
+    </div> <br> <br> 
+    <div class="problem solving">
+        <p>
+            <span><b>Problem solving</b></span>
+        <fieldset>
+            <ul>
+                <li><a href="https://www.hackerrank.com/">Hacker Rank</a></li>
+                <li><a href="https://www.codechef.com/">Codechef</a></li>
+                <li><a href="https://www.hackerearth.com/recruit/?utm_feeditemid&utm_device=c&utm_term=hacker%20earth&utm_source=adword&utm_medium=ppc&utm_campaign=%5BRec%5D%20Branded%20Keywords&hsa_cam=15215950032&hsa_grp=129139117666&hsa_mt=e&hsa_src=g&hsa_ad=560288764534&hsa_acc=8660149232&hsa_net=adwords&hsa_kw=hacker%20earth&hsa_tgt=kwd-51875484058&hsa_ver=3&gclid=EAIaIQobChMIprfCmND_9wIVH5hmAh1hWgf3EAAYASAAEgIMqvD_BwE">Hacker Earth</a></li>
+                <li><a href="https://codeforces.com/">codeforces</a></li>
+                <li><a href="https://www.codewars.com/">Code Wars</a></li>
+                <li><a href="https://cses.fi/problemset/list/">CSES Problem set</a></li>
+                <li><a href="https://codingbat.com/java">Coding Bat</a></li> 
+            </ul>
+        </fieldset>
+        </p>
+    </div> <br> <br> 
+    <div class="os_learn">
+        <p>
+            <span><b>Learn Operating System</b></span>
+        <fieldset>
+            <ul>
+                <li><a href="https://www.javatpoint.com/linux-tutorial">Linux</a></li>
+                <li><a href="https://www.javatpoint.com/kali-linux">Kali Linux</a></li>
+                <li><a href="https://www.javatpoint.com/software-installation-in-ubuntu">Ubuntu</a></li>
+                <li><a href="https://www.javatpoint.com/powershell">Windows PowerShell</a></li>            
+            </ul>
+        </fieldset>
+        </p>
+    </div> <br> <br> <br>
+</fieldset>
+</body>
+</html>
